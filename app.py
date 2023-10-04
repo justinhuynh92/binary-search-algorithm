@@ -21,6 +21,9 @@ def binary_search(list, element):
             end = middle - 1
         else:
             start = middle + 1
+    return - 1
 
+my_list = [1,2,3,4,5,6,7,8,9,10,11,12]
+target = 12
 
-# multiple variables : middle, start, end, steps
+binary_search(my_list, target)
